@@ -3,7 +3,7 @@ session_start();
 require 'Facebook/autoload.php';
 
 $fb = new Facebook\Facebook([
-    'app_id' => '210023453743763',
-    'app_secret' => '08acfa3f4cd2dc3925db5716cf0e94e8',
+    'app_id' => '0000', // Já tenho o ID do meu App
+    'app_secret' => '00000', // Já tenho o App Secret
     'default_graph_version' => 'v2.7'
 ]);
